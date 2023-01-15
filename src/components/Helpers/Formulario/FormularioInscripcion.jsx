@@ -1,4 +1,5 @@
 import BtnRegistrar from "../Botones/BtnRegistrar";
+import Footer from "../Footer";
 
 const FormularioInscripcion = () => {
   return (
@@ -92,6 +93,7 @@ const FormularioInscripcion = () => {
             <option value="rifle">Rifle</option>
         </select>
         <BtnRegistrar/>
+        <Footer/>
       </form> 
     </section>
     
