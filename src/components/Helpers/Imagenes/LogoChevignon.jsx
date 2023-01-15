@@ -1,11 +1,19 @@
-import logochevignon from '../../../../public/Chevignon.jpeg'
+import logochevignon from "../../../../public/Chevignon.jpeg";
 
 const LogoChevignon = () => {
-    return (
-        <section className="logos">
-            <img className="logo-chevignon" src={logochevignon} alt="chevignon"/>
-        </section>
-    )
-}
+  return (
+    <section className="logos">
+    <a href="https://www.chevignon.com.co/">
+      <img
+        className="logo-chevignon"
+        src={logochevignon}
+        alt="chevignon"
+        type="button"
+        value="ir"
+      />
+      </a>
+    </section>
+  );
+};
 
 export default LogoChevignon;
