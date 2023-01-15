@@ -2,10 +2,10 @@ import BtnRegistrar from "../Botones/BtnRegistrar";
 
 const FormularioInscripcion = () => {
   return (
-    <section className="registro">
-      <form action="">
-        <h1 className="titulo">INSCRIPCIÓN</h1>
-        <select name="option" id="lang">
+    <section className="registro"> 
+    <h1 className="titulo">INSCRIPCIÓN</h1>
+      <form action="#">
+        <select className="option" id="lang">
             <option selected>Tipo de Identificación</option>
             <option value="cedulaDeCiudadania">Cédula de ciudadania</option>
             <option value="cedulaDeExtranjeria">Cédula de Extranjeria</option>
@@ -15,35 +15,35 @@ const FormularioInscripcion = () => {
         </select>
         <input
           value="Número de Identificación"
-          className="form-item"
+          className="form_item"
           placeholder="Número de Identificación"
           type="text"
         />
         <input
           value="Nombres"
-          className="form-item"
+          className="form_item"
           placeholder="Nombres"
           type="text"
         />
         <input
           value="Apellidos"
-          className="form-item"
+          className="form_item"
           placeholder="Apellidos"
           type="text"
         />
         <input 
           value="Fecha de nacimiento"
-          className="form-item"
+          className="form_item"
           placeholder="Fecha de nacimiento"
           type="Date"
         />
         <input
-          value="Direccion"
-          className="form-item"
+          value="Dirección"
+          className="form_item"
           placeholder="Dirección"
           type="text"
         />
-        <select name="option" id="lang">
+        <select className="option" id="lang">
          <option selected>País</option>
             <option value="colombia">Colombia</option>
             <option value="estadosunidos">Estados Unidos</option>
@@ -56,7 +56,7 @@ const FormularioInscripcion = () => {
             <option value="francia">Francia</option>
             <option value="china">China</option>
         </select>
-        <select name="option" id="lang">
+        <select className="option" id="lang">
          <option selected>Departamento</option>
             <option value="cundinamarca">Cundinamarca</option>
             <option value="antioquia">Antioquia</option>
@@ -69,7 +69,7 @@ const FormularioInscripcion = () => {
             <option value="meta">Meta</option>
             <option value="nortedesantander">Norte de Santander</option>
         </select>
-         <select name="option" id="lang">
+         <select className="option" id="lang">
          <option selected>Ciudad</option>
             <option value="bogota">Bogotá D.C</option>
             <option value="medellin">Medellín</option>
@@ -82,7 +82,7 @@ const FormularioInscripcion = () => {
             <option value="villavicencio">Villavicencio</option>
             <option value="cucuta">Cúcuta</option>
         </select>
-        <select name="option" id="lang">
+        <select className="option" id="lang">
          <option selected>Marca</option>
             <option value="americanino">Americanino</option>
             <option value="americaneagle">American Eagle</option>
