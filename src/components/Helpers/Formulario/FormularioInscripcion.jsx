@@ -1,11 +1,9 @@
 import BtnRegistrar from "../Botones/BtnRegistrar";
-import Header from "../Header";
 
 const FormularioInscripcion = () => {
   return (
     <section className="registro">
       <form action="">
-        <Header/>
         <h1 className="titulo">INSCRIPCIÓN</h1>
         <select name="option" id="lang">
             <option selected>Tipo de Identificación</option>
@@ -45,23 +43,56 @@ const FormularioInscripcion = () => {
           placeholder="Dirección"
           type="text"
         />
-        <form action="#">
+        <select name="option" id="lang">
+         <option selected>País</option>
+            <option value="colombia">Colombia</option>
+            <option value="estadosunidos">Estados Unidos</option>
+            <option value="peru">Perú</option>
+            <option value="chile">Chile</option>
+            <option value="canada">Canadá</option>
+            <option value="mexico">México</option>
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="francia">Francia</option>
+            <option value="china">China</option>
+        </select>
+        <select name="option" id="lang">
+         <option selected>Departamento</option>
+            <option value="cundinamarca">Cundinamarca</option>
+            <option value="antioquia">Antioquia</option>
+            <option value="bolivar">Bolivar</option>
+            <option value="caldas">Caldas</option>
+            <option value="huila">Huila</option>
+            <option value="valledelcauca">Valle del Cauca</option>
+            <option value="nariño">Nariño</option>
+            <option value="magdalena">Magdalena</option>
+            <option value="meta">Meta</option>
+            <option value="nortedesantander">Norte de Santander</option>
+        </select>
          <select name="option" id="lang">
          <option selected>Ciudad</option>
             <option value="bogota">Bogotá D.C</option>
             <option value="medellin">Medellín</option>
             <option value="cartagena">Cartagena</option>
             <option value="manizales">Manizales</option>
-            <option value="santander">Santander</option>
+            <option value="neiva">Neiva</option>
             <option value="cali">Cali</option>
-            <option value="nariño">Nariño</option>
+            <option value="pasto">Pasto</option>
             <option value="santaMarta">Santa Marta</option>
             <option value="villavicencio">Villavicencio</option>
             <option value="cucuta">Cúcuta</option>
         </select>
-        </form>
+        <select name="option" id="lang">
+         <option selected>Marca</option>
+            <option value="americanino">Americanino</option>
+            <option value="americaneagle">American Eagle</option>
+            <option value="chevignon">Chevignon</option>
+            <option value="esprit">Esprit</option>
+            <option value="nafnaf">Naf Naf</option>
+            <option value="rifle">Rifle</option>
+        </select>
+        <BtnRegistrar/>
       </form> 
-       <BtnRegistrar/>
     </section>
     
   );

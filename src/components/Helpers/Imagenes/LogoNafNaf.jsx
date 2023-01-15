@@ -1,4 +1,4 @@
-import logonafnaf from "../../../../public/nafnaf.png";
+import logonafnaf from "../../../../public/nafnaf.jpeg";
 
 const LogoNafNaf = () => {
   return (

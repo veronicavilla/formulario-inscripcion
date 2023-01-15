@@ -1,4 +1,4 @@
-import logorifle from "../../../../public/rifle.png";
+import logorifle from "../../../../public/rifle.jpeg";
 
 const LogoRifle = () => {
   return (

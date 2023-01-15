@@ -1,4 +1,4 @@
-import logoamericanino from "../../../../public/americanino.png";
+import logoamericanino from "../../../../public/americanino.jpeg";
 
 const LogoAmericanino = () => {
   return (

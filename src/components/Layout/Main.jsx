@@ -1,13 +1,10 @@
-import BtnRegistrar from "../Helpers/Botones/BtnRegistrar";
-import FormularioInscripcion from "../Helpers/Formulario/FormularioInscripcion";
-import Header from "../Helpers/Header";
+import Principal from "../Helpers/Principal";
 
 
 const Main = () => {
   return (
     <main>
-       <FormularioInscripcion/>
-       <BtnRegistrar/>
+        <Principal/>
     </main>
   );
 };
