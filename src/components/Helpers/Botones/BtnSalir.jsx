@@ -1,12 +1,9 @@
 const BtnSalir = () => {
-    return (
-        <input
-          className="btn-salir"
-          type="button"
-          value="Salir"
-          placeholder="Salir"
-        />
-    );
-  };
-  
-  export default BtnSalir;
+  return (
+    <button type="submit" className="btn-salir">
+      Salir
+    </button>
+  );
+};
+
+export default BtnSalir;

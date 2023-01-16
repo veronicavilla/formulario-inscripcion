@@ -1,7 +1,7 @@
 {
   "name": "formulario-inscripcion",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -18,5 +19,17 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "vite": "^4.0.0"
-  }
+  },
+  "description": "formulario inscripcion",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veronicavilla/formulario-inscripcion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veronicavilla/formulario-inscripcion/issues"
+  },
+  "homepage": "https://github.com/veronicavilla/formulario-inscripcion#readme"
 }

@@ -1,12 +1,9 @@
 const BtnRegistrar = () => {
   return (
     <section>
-      <input
-        className="btn-registrar"
-        type="button"
-        value="Registrar"
-        placeholder="Registrar"
-      />
+      <button type="submit" className="btn-registrar">
+        Registrarse
+      </button>
     </section>
   );
 };
