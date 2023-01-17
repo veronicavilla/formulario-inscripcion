@@ -5,7 +5,7 @@ const LogoRifle = () => {
     <section className="logos">
       <a href="https://www.rifle.com.co/">
         <img
-        className="logo-rifle"
+        className="logos-header"
         src={logorifle}
         alt="rifle"
         type="button"

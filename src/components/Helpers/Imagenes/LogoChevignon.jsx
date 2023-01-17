@@ -5,7 +5,7 @@ const LogoChevignon = () => {
     <section className="logos">
     <a href="https://www.chevignon.com.co/">
       <img
-        className="logo-chevignon"
+        className="logos-header"
         src={logochevignon}
         alt="chevignon"
         type="button"

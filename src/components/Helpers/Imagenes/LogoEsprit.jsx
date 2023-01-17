@@ -5,7 +5,7 @@ const LogoEsprit = () => {
     <section className="logos">
     <a href="https://www.esprit.com.co/">
       <img
-        className="logo-esprit"
+        className="logos-header"
         src={logoesprit}
         alt="esprit"
         type="button"

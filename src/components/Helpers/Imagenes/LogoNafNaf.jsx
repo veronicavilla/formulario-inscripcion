@@ -5,7 +5,7 @@ const LogoNafNaf = () => {
     <section className="logos">
     <a href="https://www.nafnaf.com.co/">
       <img
-        className="logo-naf-naf"
+        className="logos-header"
         src={logonafnaf}
         alt="nafnaf"
         type="button"

@@ -100,7 +100,7 @@ const FormularioInscripcion = () => {
         </select>
         <section className="terminos" id="terminos">
           <input className="checkbox" type="checkbox" name="terminos" id="terminos" />
-          Acepto los Terminos y Condiciones.
+          Acepto Terminos y Condiciones.
         </section>
         <BtnRegistrar/>
         <Footer/>
